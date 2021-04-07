@@ -1,18 +1,19 @@
+package main;
 import java.util.*;
 /**
 * @author Yavuz Koroglu
 * @editor Bahyeddin Nuri
 */
 public class RunningAverage{
-    private Double currentAverage = new Double(0.0);
-    private Integer populationSize = new Integer(0);
+    private Double currentAverage;
+    private Integer populationSize;
 
     /**
     * Default Constructor.
     */
     public RunningAverage(){
         this.currentAverage = 0.0;
-        this.populationSize = 1;
+        this.populationSize = 0;
     }
 
     /**
@@ -21,6 +22,11 @@ public class RunningAverage{
     * @param lastPopulationSize
     */
     public RunningAverage(double lastAverage, int lastPopulationSize){
+        if(lastPopulationSize < 0){
+            String msg = new String("lastPopulationSize cannot be less than 0");
+            // for 1.3
+            throw new RuntimeException(msg);
+        }
         this.currentAverage = lastAverage;
         this.populationSize = lastPopulationSize;
     }
@@ -56,14 +62,22 @@ public class RunningAverage{
     * @return currentAverage
     */
     public Double addElements(List<Double> addedPopulation){
-        if (addedPopulation.size() == 0 || addedPopulation == null) {
+        if(addedPopulation == null){
             return this.currentAverage;
         }
+
+        if (addedPopulation.size() == 0) {
+            return this.currentAverage;
+        }
+
         double sum = this.currentAverage * this.populationSize;
         for (double element : addedPopulation) {
             sum += element;
             this.populationSize++;
 
+        }
+        if(this.populationSize < 0){
+            throw new RuntimeException("population size cannot be negative");
         }
         this.currentAverage = sum / this.populationSize;
         return this.currentAverage;
@@ -76,13 +90,24 @@ public class RunningAverage{
     * @return currentAverage
     */
     public Double removeElements(List<Double> removedPopulation){
-        if (removedPopulation.size() == 0 || removedPopulation == null) {
-            return 0.0;
+
+        if(removedPopulation == null){
+            // 1.2.d
+            return this.currentAverage;
         }
+
+        if (removedPopulation.size() == 0) {
+            // 1.2.d
+            return this.currentAverage;
+        }
+
         double sum = this.currentAverage * this.populationSize;
         for (double element : removedPopulation) {
             sum -= element;
             this.populationSize--;
+        }
+        if(this.populationSize < 0){
+            throw new RuntimeException("population size cannot be negative");
         }
         this.currentAverage = sum / this.populationSize;
         return this.currentAverage;
@@ -95,7 +120,7 @@ public class RunningAverage{
     * @return combinedAverage
     */
     static public RunningAverage combine(final RunningAverage avg1, final RunningAverage avg2){
-        return new RunningAverage(avg1.getCurrentAverage() * avg1.getPopulationSize() + avg2.getCurrentAverage() * avg2.getPopulationSize() 
+        return new RunningAverage((avg1.getCurrentAverage() * avg1.getPopulationSize() + avg2.getCurrentAverage() * avg2.getPopulationSize()) 
             / (avg1.getPopulationSize() + avg2.getPopulationSize()),
         avg1.getPopulationSize() + avg2.getPopulationSize()); 
     }

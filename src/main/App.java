@@ -1,5 +1,8 @@
+package main;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        RunningAverage runningAverage = new RunningAverage(2.1, -1);
+
     }
 }

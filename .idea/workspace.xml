@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2919bda5-abbf-4d26-9a7c-7e1760aff134" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qhy5wCJLqwu77VrfurDw54EgR9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.App">
+    <configuration name="App" type="JUnit" factoryName="JUnit" temporary="true">
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="main.App" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningAverageTest.isCurrentAverageCorrectAfterPopulationIsAddedOrRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RunningAverageTest" />
+      <option name="METHOD_NAME" value="isCurrentAverageCorrectAfterPopulationIsAddedOrRemoved(main.Operations)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningAverageTest.isGivenTheListForOperationsImmutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RunningAverageTest" />
+      <option name="METHOD_NAME" value="isGivenTheListForOperationsImmutable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningAverageTest.shouldTestIfOperationsGetZeroWhilePopulationListIsEmpty (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RunningAverageTest" />
+      <option name="METHOD_NAME" value="shouldTestIfOperationsGetZeroWhilePopulationListIsEmpty(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningAverageTest.testPopulationSizes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RunningAverageTest" />
+      <option name="METHOD_NAME" value="testPopulationSizes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.App" />
+        <item itemvalue="JUnit.RunningAverageTest.testPopulationSizes" />
+        <item itemvalue="JUnit.RunningAverageTest.shouldTestIfOperationsGetZeroWhilePopulationListIsEmpty (3)" />
+        <item itemvalue="JUnit.RunningAverageTest.isGivenTheListForOperationsImmutable" />
+        <item itemvalue="JUnit.RunningAverageTest.isCurrentAverageCorrectAfterPopulationIsAddedOrRemoved" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2919bda5-abbf-4d26-9a7c-7e1760aff134" name="Default Changelist" comment="" />
+      <created>1617545936314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617545936314</updated>
+      <workItem from="1617545941363" duration="407000" />
+      <workItem from="1617805317690" duration="15118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="61" key="#App" timestamp="1617834637147">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="61" key="#App/0.0.1440.900@0.0.1440.900" timestamp="1617834637147" />
+    <state x="312" y="61" key="#RunningAverage" timestamp="1617834632250">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="61" key="#RunningAverage/0.0.1440.900@0.0.1440.900" timestamp="1617834632250" />
+    <state x="312" y="61" key="#RunningAverageTest" timestamp="1617834613001">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="61" key="#RunningAverageTest.shouldTestIfOperationsGetZeroWhilePopulationListIsEmpty_(3)" timestamp="1617834651504">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="61" key="#RunningAverageTest.shouldTestIfOperationsGetZeroWhilePopulationListIsEmpty_(3)/0.0.1440.900@0.0.1440.900" timestamp="1617834651504" />
+    <state x="312" y="61" key="#RunningAverageTest/0.0.1440.900@0.0.1440.900" timestamp="1617834613001" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1617833441217">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617833441217" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1617833441216">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617833441216" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1617833441215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617833441215" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1617833441217">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617833441217" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1617832331984">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617832331984" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1617832331981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1617832331981" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1617832331980">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1617832331980" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1617832331983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1617832331983" />
+    <state x="499" y="235" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1617546191037">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="235" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1617546191037" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617818032103">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1617818032103" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/RunningAverage.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/RunningAverage.java</url>
+          <line>13</line>
+          <properties class="main.RunningAverage" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
