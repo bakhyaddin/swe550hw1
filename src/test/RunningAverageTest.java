@@ -9,7 +9,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -235,7 +234,7 @@ public class RunningAverageTest {
         assertEquals(7, runningAverage.getPopulationSize());
 
         // step 2
-        RunningAverage runningAverage1 = runningAverage;
+        RunningAverage runningAverage1 = new RunningAverage(runningAverage);
         runningAverage1.removeAndAddElements(List.of(2.0), Operations.REMOVE);
         assertEquals(runningAverage1.getDecimals(3.6667), runningAverage1.getCurrentAverage());
         assertEquals(6, runningAverage1.getPopulationSize());
